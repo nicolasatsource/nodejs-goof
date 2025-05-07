@@ -22,7 +22,7 @@ jobs:
         with:
           format: rdjson
           output: rd.json
-          diff: true
+          diff: false
       - name: Run reviewdog
         if: always()
         env:
