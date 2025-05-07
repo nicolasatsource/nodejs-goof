@@ -47,6 +47,7 @@ app.use(session({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(fileUpload());
+console.log(app.port)
 
 // Routes
 app.use(routes.current_user);
